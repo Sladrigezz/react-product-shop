@@ -1,0 +1,25 @@
+.cart {
+  &__button {
+    margin-bottom: 20px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    &-item {
+      width: 200px;
+      height: 400px;
+      margin: 0 20px 20px 0;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+  }
+}
+
+.list-item__image {
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+}

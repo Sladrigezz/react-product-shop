@@ -1,0 +1,14 @@
+.header {
+  margin-bottom: 20px;
+
+  &__icon {
+    width: 21px;
+    height: 21px;
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

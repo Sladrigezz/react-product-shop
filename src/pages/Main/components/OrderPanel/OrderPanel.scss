@@ -1,0 +1,25 @@
+.order-panel {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  min-height: 100px;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  &__list {
+    display: flex;
+    &-item {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__icon {
+    width: 21px;
+    height: 21px;
+    &-list {
+      display: flex;
+    }
+    &_rotated {
+      transform: rotate(180deg);
+    }
+  }
+}
